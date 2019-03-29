@@ -8,7 +8,14 @@ package ec.edu.ups.modelos;
 import java.util.Date;
 
 /**
+ * 
+ * EstructuraPeriodico
+ * 
+ * Clase que permite estructura mi periodico digital
  *
+ * 
+ * 
+ * 
  * @author erics
  */
 public class EstructuraPeriodico {
@@ -19,6 +26,11 @@ public class EstructuraPeriodico {
     private String portada;
     private String encabezado;
   //  private String seccion;
+    
+    /**
+     * 
+     * @param ubicacion 
+     */
     public void setUbicacion (String ubicacion){
         
        this.ubicacion = ubicacion;
