@@ -35,11 +35,11 @@ public class Prueba {
         
         Seccion noticia = new Seccion ();
         noticia.setNombre("Farandula");
-        noticia.setNoticia("Su mujer es infiel");
+        //noticia.setNoticia("Su mujer es infiel");
         String no = noticia.getNombre();
         System.out.println("La seccion es:"+""+no);
-        String noti = noticia.getNoticia();
-        System.out.println("Noticia del dia:"+" "+noti);
+       // String noti = noticia.getNoticia();
+       // System.out.println("Noticia del dia:"+" "+noti);
         
         System.out.println("");
         
