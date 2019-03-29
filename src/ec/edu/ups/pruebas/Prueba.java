@@ -34,8 +34,8 @@ public class Prueba {
         System.out.println("");
         
         Seccion noticia = new Seccion ();
-        noticia.setNombre("Deportes");
-        noticia.setNoticia("Ecuador debuta partidos amistosos");
+        noticia.setNombre("Farandula");
+        noticia.setNoticia("Su mujer es infiel");
         String no = noticia.getNombre();
         System.out.println("La seccion es:"+""+no);
         String noti = noticia.getNoticia();
