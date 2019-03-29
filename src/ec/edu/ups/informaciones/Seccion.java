@@ -5,6 +5,8 @@
  */
 package ec.edu.ups.informaciones;
 
+import ec.edu.ups.publicaciones.Noticia;
+
 /**
  *
  * @author erics
@@ -12,24 +14,16 @@ package ec.edu.ups.informaciones;
 public class Seccion {
     
     private String nombre ;
-    private String noticia;
+    private Noticia noticia [];
     
     public void setNombre(String nombre){
         
         this.nombre = nombre;
     }
     
-    public void setNoticia(String noticia){
-        
-        this.noticia = noticia;
-    }
     
     public String getNombre(){
         return this.nombre;
     }
-    
-    public String getNoticia(){
-        return this.noticia;
-        
-    }
+   
 }
