@@ -45,5 +45,15 @@ public class RedSocial {
         
         return this.url;
     }
+
+    @Override
+    public String toString() {
+        return "RedSocial{" + "nombre=" + nombre +  ", url=" + url + '}';
+    }
+    
+   
+    
+    
+    
     
 }

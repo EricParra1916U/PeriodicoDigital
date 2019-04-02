@@ -22,6 +22,7 @@ public class Prueba {
     public static void main (String [] args ){
   
         RedSocial facebook = new RedSocial ();
+        
         facebook.setCodigo(1);
         facebook.setNombre("Facebook");
         facebook.setUrl("www.facebook.com");
@@ -31,6 +32,8 @@ public class Prueba {
         System.out.println("Nombre:"+" "+nom);
         String ur = facebook.getUrl();
         System.out.println("Url de la pagina:"+" "+ur);
+        System.out.println(facebook);
+             
         
         System.out.println("");
         
